@@ -1,9 +1,8 @@
 "use client";
 
-import wcss from "./writeBlogCss.module.css";
 import React, { useState, useEffect } from "react";
 
-function page() {
+function Page() {
   const [blogs, setBlogs] = useState(() => {
     if (typeof window !== "undefined") {
       const storedBlogs = localStorage.getItem("blogs");
@@ -52,14 +51,10 @@ function page() {
   }
 
   return (
-    <div className={wcss.wbouterDiv}>
-      <div className={wcss.imageOuterDiv}>
-        <img className={wcss.imgclasssrc} src="/images/dog1.jpeg" alt="Dog" />
-      </div>
+    <div>
       <form className="formClass" onSubmit={handleSubmit}>
         <p>WRITING A BLOG</p>
         <input
-          className={wcss.input}
           name="title"
           type="text"
           placeholder="Blog Heading"
@@ -68,7 +63,6 @@ function page() {
         />
         <p>SMALL DESCRIPTION</p>
         <input
-          className={wcss.input}
           name="description"
           type="text"
           placeholder="Short Description"
@@ -77,7 +71,6 @@ function page() {
         />
         <p>WRITE AWESOME CONTENT</p>
         <textarea
-          className={wcss.textarea}
           name="content"
           rows={10}
           placeholder="Write your blog content here..."
@@ -86,20 +79,15 @@ function page() {
         ></textarea>
         <p>YOUR NAME</p>
         <input
-          className={wcss.input}
           name="author"
           type="text"
           placeholder="Your Name"
           value={form.author}
           onChange={handleChange}
         />
-        <button className={wcss.button} type="submit">
-          {" "}
-          SUBMIT{" "}
-        </button>
+        <button type="submit"> SUBMIT </button>
       </form>
-      <h1> Saved Bolgs</h1>
-
+      <h1>Saved Blogs</h1>
       <div>
         {blogs.map((blog, index) => (
           <div key={index} className="storedBogDiv">
@@ -117,4 +105,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;

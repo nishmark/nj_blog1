@@ -1,35 +1,38 @@
 [
-
-    {
-      "title": "The Joy of Dogs: Why We Love Them",
-      "description": "Exploring the unique bond between humans and dogs, and why dogs are considered man's best friend.",
-      "author": "NISHY",
-      "date": "2024-06-10",
-      "image": "/images/dog1.jpeg",
-      "content": "Dogs have been our loyal companions for thousands of years. Their loyalty, playfulness, and unconditional love make them an integral part of many families. Whether it's a walk in the park or a cuddle on the couch, dogs bring joy to our lives every day."
-    },
-    {
-      "title": "Adventures with My Dog",
-      "description": "A personal story about memorable adventures with a beloved dog.",
-      "author": "HARISH",
-      "date": "2024-06-12",
-      "image": "/images/dog3.jpg",
-      "content": "From hiking in the mountains to playing fetch at the beach, my dog has been my adventure buddy through thick and thin. These experiences have created unforgettable memories and strengthened our bond."
-    },
-    {
-      "title": "The Evolution of Cars: From Classic to Modern",
-      "description": "A look at how cars have changed over the decades, featuring classic and modern vehicles.",
-      "author": "NISHY",
-      "date": "2024-06-15",
-      "image": "/images/redcar.jpg",
-      "content": "Cars have come a long way since their invention. From classic designs to modern technology, the evolution of cars reflects our changing lifestyles and technological advancements. Today, cars are not just a means of transport but a symbol of innovation and freedom."
-    },
-    {
-      "title": "Choosing the Right Car for Your Needs",
-      "description": "Tips and advice on selecting the perfect car, whether for family, adventure, or daily commute.",
-      "author": "HARISH",
-      "date": "2024-06-18",
-      "image": "/images/white car.jpg",
-      "content": "Selecting the right car can be overwhelming with so many options available. Consider your needs, budget, and preferences. Whether you need a family SUV, a sporty convertible, or an eco-friendly hybrid, there's a perfect car out there for everyone."
-    }
-  ]
+  {
+    "id": 1,
+    "title": "The Joy of Dogs: Why We Love Them",
+    "description": "Exploring the unique bond between humans and dogs, and why dogs are considered man's best friend.",
+    "author": "NISHY",
+    "date": "2024-06-10",
+    "image": "/images/dog1.jpeg",
+    "content": "Dogs have been our loyal companions for thousands of years. Their loyalty, playfulness, and unconditional love make them an integral part of many families. Whether it's a walk in the park or a cuddle on the couch, dogs bring joy to our lives every day."
+  },
+  {
+    "id": 2,
+    "title": "Adventures with My Dog",
+    "description": "A personal story about memorable adventures with a beloved dog.",
+    "author": "HARISH",
+    "date": "2024-06-12",
+    "image": "/images/dog3.jpg",
+    "content": "From hiking in the mountains to playing fetch at the beach, my dog has been my adventure buddy through thick and thin. These experiences have created unforgettable memories and strengthened our bond."
+  },
+  {
+    "id": 3,
+    "title": "The Evolution of Cars: From Classic to Modern",
+    "description": "A look at how cars have changed over the decades, featuring classic and modern vehicles.",
+    "author": "NISHY",
+    "date": "2024-06-15",
+    "image": "/images/redcar.jpg",
+    "content": "Cars have come a long way since their invention. From classic designs to modern technology, the evolution of cars reflects our changing lifestyles and technological advancements. Today, cars are not just a means of transport but a symbol of innovation and freedom."
+  },
+  {
+    "id": 4,
+    "title": "Choosing the Right Car for Your Needs",
+    "description": "Tips and advice on selecting the perfect car, whether for family, adventure, or daily commute.",
+    "author": "HARISH",
+    "date": "2024-06-18",
+    "image": "/images/white car.jpg",
+    "content": "Selecting the right car can be overwhelming with so many options available. Consider your needs, budget, and preferences. Whether you need a family SUV, a sporty convertible, or an eco-friendly hybrid, there's a perfect car out there for everyone."
+  }
+]
